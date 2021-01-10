@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&family=Open+Sans&display=swap');
+
+body {
+    background-color: #EBF2FA;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', Arial Black, fantasy;
+}
+
+li{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #0B5351;
+}
+
