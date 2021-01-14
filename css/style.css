@@ -3,22 +3,30 @@
 body {
     background-color: #EBF2FA;
     line-height: 1.5;
+    padding: 0 10px 0 10px;
 }
 
 .pagetitle {
     color: white;
     text-align: center;
-    font-size: large;
+    font-size: 3em;
+    padding: 30px 0 0 180px;
 }
 
 .photo-id {
-    width: 100px;
+    width: 190px;
     float: right;
+    padding: 10px;
+    margin-right: 5px;
 }
 
 h1 {
     font-family: 'Montserrat Alternates', Arial Black, fantasy;
     font-size: 1.5em;
+}
+
+p {
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 li{
@@ -35,4 +43,28 @@ header, footer {
     text-align: center;
     color: white;
     font-weight: bold;
+    padding: 25px 0 0 0;
+    margin-bottom: 0;
+}
+
+#update-message {
+    font-size: .8em;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin-top: 0;
+}
+
+header {
+    height: 150px;
+}
+
+footer {
+    height: 90px;
+}
+
+.headline {
+    border-bottom: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 15px 0 15px;
 }
