@@ -3,7 +3,17 @@
 body {
     background-color: #EBF2FA;
     line-height: 1.5;
-    max-width: 1000px;
+}
+
+.pagetitle {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.photo-id {
+    width: 100px;
+    float: right;
 }
 
 h1 {
@@ -17,18 +27,12 @@ li{
 
 header, footer {
     background-color: #0B5351;
-    height: 200px;
-}
-
-.pagetitle {
-    color: white;
-}
-
-.photo-id {
-    width: 60px;
-    float: right;
+    border-radius: 24px;
 }
 
 #info {
     font-size: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
