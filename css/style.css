@@ -20,11 +20,15 @@ header, footer {
     height: 200px;
 }
 
-#pagetitle {
+.pagetitle {
     color: white;
 }
 
-#photo-id {
+.photo-id {
     width: 60px;
     float: right;
+}
+
+#info {
+    font-size: 1em;
 }
