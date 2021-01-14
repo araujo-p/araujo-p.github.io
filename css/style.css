@@ -3,10 +3,12 @@
 body {
     background-color: #EBF2FA;
     line-height: 1.5;
+    max-width: 1000px;
 }
 
 h1 {
     font-family: 'Montserrat Alternates', Arial Black, fantasy;
+    font-size: 1.5em;
 }
 
 li{
@@ -15,5 +17,14 @@ li{
 
 header, footer {
     background-color: #0B5351;
+    height: 200px;
 }
 
+#pagetitle {
+    color: white;
+}
+
+#photo-id {
+    width: 60px;
+    float: right;
+}
