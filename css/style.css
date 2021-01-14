@@ -2,6 +2,11 @@
 
 body {
     background-color: #EBF2FA;
+}
+
+#content {
+    max-width: 1300px;
+    background-color: #EBF2FA;
     line-height: 1.5;
     padding: 0 10px 0 10px;
 }
@@ -20,7 +25,7 @@ body {
     margin-right: 5px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Montserrat Alternates', Arial Black, fantasy;
     font-size: 1.5em;
 }
@@ -67,4 +72,8 @@ footer {
     border-bottom: 2px solid black;
     padding: 10px 10px 10px 10px;
     margin: 10px 15px 0 15px;
+}
+
+.footer-link{
+    color: white;
 }
