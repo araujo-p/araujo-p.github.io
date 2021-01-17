@@ -5,29 +5,27 @@ body {
 }
 
 #content {
-    max-width: 1300px;
+    max-width: 960px;
     background-color: #EBF2FA;
     line-height: 1.5;
     padding: 0 10px 0 10px;
+    margin: auto;
 }
 
 .pagetitle {
     color: white;
     text-align: center;
-    font-size: 3em;
-    padding: 30px 0 0 180px;
+    font-size: 1.5em;
+    margin: auto;
 }
 
 .photo-id {
     width: 190px;
-    float: right;
-    padding: 10px;
-    margin-right: 5px;
+    height: auto;
 }
 
 h1, h2 {
     font-family: 'Montserrat Alternates', Arial Black, fantasy;
-    font-size: 1.5em;
 }
 
 p {
@@ -39,8 +37,7 @@ li{
 }
 
 header, footer {
-    background-color: #0B5351;
-    border-radius: 24px;
+    background-color: #0E3B43;
 }
 
 #info {
@@ -61,17 +58,18 @@ header, footer {
 }
 
 header {
-    height: 150px;
+    height: auto;
 }
 
 footer {
-    height: 90px;
+    height: auto;
 }
 
 .headline {
     border-bottom: 2px solid black;
     padding: 10px 10px 10px 10px;
     margin: 10px 15px 0 15px;
+    font-size: 1em;
 }
 
 .footer-link{

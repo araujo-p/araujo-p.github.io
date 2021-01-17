@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="discription" content="This is a assignment portal page for WDD230">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="normalizesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
   <title>Assignment Portal</title>
 </head>
 <body>
@@ -22,9 +24,10 @@
     </ul>
   </main>
   <footer>
-    <p id="info">&copy; 2021 | Patricia Araujo | Brazil | <a class="footer-link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-    <p id="update-message">Last updated: 01/14/2021 2:14</p>
+    <p id="info">&copy; <span id="currentyear"></span> | Patricia Araujo | Brazil | <a class="footer-link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    <p id="update-message">Last updated: <span id="currentDateTime"></span></p>
   </footer>
+  <script src="js/currentdate.js"></script>
   </div>
 </body>
 </html>
