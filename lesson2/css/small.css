@@ -17,13 +17,13 @@ main {
 
 header, footer {
     background-color: #3C91E6;
+    border-radius: 10px;
 }
 
 .principlebox1, .principlebox2, .principlebox3 {
     width: 320px;
     border-radius: 3px;
-    padding: 10px;
-    margin: auto;
+    margin-top: 20px;
     box-shadow: 1px 1px 4px 1px #888;
 }
 
@@ -35,18 +35,34 @@ header, footer {
 
 header h1 {
     color: white;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 10px;
 }
+
+header h2{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0%;
+}
+
 .principle-name{
     text-align: center;
-    padding: 10px;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 .website-name {
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .website-link {
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .principle-description{
@@ -56,10 +72,25 @@ header h1 {
 
 .principlebox1 {
     grid-column: 1/2;
+    grid-row: 1/4;
+    padding: 5px 10px 5px 10px;
+    margin-left: 65px;
 }
 .principlebox2 {
     grid-column: 2/3;
+    grid-row: 1/4;
+    padding: 5px 10px 5px 5px;
 }
 .principlebox3 {
     grid-column: 3/4;
+    grid-row: 1/4;
+    padding: 5px 10px 5px 5px;
+}
+
+#info {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
