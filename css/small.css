@@ -75,3 +75,9 @@ footer {
 .footer-link{
     color: white;
 }
+.footer-link:hover{
+    color: black;
+}
+.footer-link:visited{
+    color: red;
+}
