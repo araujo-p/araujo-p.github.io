@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap');
 body{
     max-width: 1000px;
+    margin: auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,14 +15,15 @@ p{
 }
 
 header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 img{
-    width: 150px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    width: 130px;
+    padding-right: 20px;
 }
 
 nav{
@@ -41,12 +43,6 @@ header, footer{
 
 .pagetitle{
     font-size: 40px;
-    grid-column: 2/4;
-    grid-row: 1/2;
-}
-.mottophrase{
-    grid-column: 2/4;
-    grid-row: 2/3;
 }
 
 
