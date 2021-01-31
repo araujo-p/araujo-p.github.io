@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap');
+body{
+    max-width: 1000px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Coda Caption', Arial Black, fantasy;
+    color: #001B2E;
+}
+
+p{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    color: black;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    width: 150px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    align-content: center;
+    background-color: #B5838D;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+header, footer{
+    background-color: #89BBFE;
+}
+
+.pagetitle{
+    font-size: 40px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.mottophrase{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+
