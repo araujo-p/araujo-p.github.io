@@ -1,0 +1,50 @@
+@media only screen and(min-width:65em){
+    img{
+        width: 130px;
+        padding-right: 20px;
+    }
+
+    .pagetitle{
+        font-size: 40px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .headings{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .mottophrase{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav{
+        max-width: 960px;
+        background-color: #B5838D;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li:first-child{
+        display: none;
+    }
+
+    a:link{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    a:hover{
+        color:  #ACEDFF;
+    }
+}

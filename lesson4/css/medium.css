@@ -1,0 +1,23 @@
+@media only screen and (min-width: 12.5em){
+    .navbar{
+        display: flex;
+    }
+    .navbar li:first-child {
+        display: none;
+    }
+
+    .navbar li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+
+    img{
+        width: 100px;
+        padding-right: 20px;
+    }
+
+}

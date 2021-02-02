@@ -6,19 +6,22 @@
     <meta name="discription" content="This is the preston page assignment">
     <link href="" rel="normalizesheet">
     <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
     <link href="" rel="stylesheet">
     <title>Weather Yourself</title>
 </head>
 <body>
     <header>
         <picture><img id="logo" src="images/official-logo.png" alt="A woman walking on a winter day"></picture>
-        <section>
+        <section class="headings">
             <h1 class="pagetitle">Weather Yourself</h1>
-            <p class="mottophrase"><italic>Your daily weather news just one click away!</italic></p>
+            <div class="mottophrase"><i>Your daily weather news just one click away!</i></div>
         </section>
     </header>
     <nav>
         <ul class="navbar">
+            <li><a href="" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="">Home</a></li>
             <li><a href="">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
@@ -36,7 +39,8 @@
     </main>
     <footer>
         <p id="info">&copy; Weather Yourself | Attributions | Patricia Araujo</p>
-        <p class="footerdate"></p>
+        <p id="footerdate"></p>
     </footer>
+    <script src="js/responsive-menu.js"></script>
 </body>
 </html>

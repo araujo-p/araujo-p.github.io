@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap');
 body{
-    max-width: 1000px;
+    max-width: 760px;
     margin: auto;
 }
 
@@ -22,27 +22,75 @@ header{
 }
 
 img{
-    width: 130px;
-    padding-right: 20px;
+    width: 80px;
+    padding-right: 5px;
 }
 
 nav{
-    display: flex;
-    margin: auto;
-    align-content: center;
+    margin: 0 auto;
+    max-width: 760px;
     background-color: #B5838D;
 }
 
-.navbar li{
-    list-style-type: none;
+.navbar{
+    list-style: none;
+    padding: 0;
 }
 
+.navbar li:first-child{
+    display: block;
+}
+
+.navbar li{
+    display: none;
+}
+
+.navbar a{
+    display: block;
+    padding: 0.75em;
+    text-align: left;
+    text-decoration: none;
+    color: #001B2E;
+    font-weight: 700;
+}
+
+a:hover{
+    color:  #ACEDFF;
+    background-color: #001B2E;
+}
 header, footer{
     background-color: #89BBFE;
 }
 
 .pagetitle{
     font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
+.headings{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
 
+.mottophrase{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.responsive li{
+    display: block;
+}
+#info{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#footerdate{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
