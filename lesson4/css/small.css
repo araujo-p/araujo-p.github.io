@@ -5,7 +5,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Coda Caption', Arial Black, fantasy;
+    font-family: 'Coda Caption', 'Arial Black', fantasy;
     color: #001B2E;
 }
 
@@ -16,25 +16,29 @@ p{
 
 header{
     display: flex;
-    padding: 5px;
+    padding: 0;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    background-color: #89bbfe;
 }
 
 img{
-    width: 80px;
+    width: 70px;
     padding-right: 5px;
 }
 
 nav{
-    margin: 0 auto;
+    margin: 0;
     max-width: 760px;
-    background-color: #B5838D;
+    background-color: rgba(181, 131, 141, .6);
+    padding: 0;
 }
 
 .navbar{
     list-style: none;
     padding: 0;
+    font-family:'Raleway', Helvetica, sans-serif;
 }
 
 .navbar li:first-child{
@@ -47,50 +51,63 @@ nav{
 
 .navbar a{
     display: block;
-    padding: 0.75em;
+    padding: .75rem;
     text-align: left;
     text-decoration: none;
-    color: #001B2E;
+    color: #001b2e;
     font-weight: 700;
+    font-size: 15px;
 }
 
-a:hover{
-    color:  #ACEDFF;
-    background-color: #001B2E;
-}
-header, footer{
-    background-color: #89BBFE;
-}
-
-.pagetitle{
-    font-size: 40px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.headings{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 30px;
-}
-
-.mottophrase{
-    padding: 0;
-    margin: 0;
-    text-align: center;
+.navbar li a:hover{
+    background-color: rgba(181, 131, 141,.8);
+    color: white;
 }
 
 .responsive li{
     display: block;
 }
-#info{
+
+footer{
+    background-color: #89bbfe;
+    font-size: .8em;
     text-align: center;
-    margin-bottom: 0;
+}
+
+#info{
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #footerdate{
-    text-align: center;
-    margin-top: 0;
     padding-top: 0;
+    margin-top: 0;
+}
+
+.pagetitle{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.mottophrase{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.contentbox{
+    border: grey;
+    border-width: .3em;
+    border-style:dashed;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+
+.headings{
+    padding-bottom: 20px;
 }
