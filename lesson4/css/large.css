@@ -7,10 +7,12 @@
     }
 
     img{
-        width: 130px;
+        width: 90px;
+        padding: 10px 5px 10px 5px;
     }
 
     .pagetitle{
-        font-size: 30px;
+        font-size: 40px;
+        text-align: center;
     }
 }

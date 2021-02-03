@@ -1,25 +1,24 @@
 @media only screen and (min-width: 32.5em){
-    .navbar{
-        display: flex;
+    nav button {
+       display: none;
     }
-
-    .navbar li{
+    nav ul.responsive{
         display: block;
-        flex: 1 1 auto;
+    }
+    #navbar{
+       display: flex;
+       margin-left: 2%;
+    }
+    
+    #navbar li{
+       display: block;
+       flex: 1 1 auto;
+    }
+    
+    #navbar li a{
+       border: none;
+       padding: .8rem 1rem;
+       text-align: center;
     }
 
-    .navbar a{
-        text-align: center;
-    }
-    .navbar li:first-child{
-        display: none;
-    }
-
-    .mottophrase{
-        text-align: center;
-    }
-
-    img{
-        width: 100px;
-    }
 }

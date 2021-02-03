@@ -1,6 +1,7 @@
 //Function toggleMenu for smaller views
 function toggleMenu() {
-    document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+    console.log(document.getElementById("navbar").classList);
+    document.getElementById("navbar").classList.toggle("responsive");
 }
 
 //Footer current date
