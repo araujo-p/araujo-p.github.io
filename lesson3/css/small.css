@@ -55,14 +55,15 @@ nav ul li a{
     text-decoration: none;
     display: block;
     color: #001b2e;
-    padding: 5px 5px 5px 0;
+    padding: 5px;
     font-size: 20px;
-    padding-left: 10px;
+    margin-top: 0;
 }
 
 nav ul li a:hover{
     color: white;
     background-color: #001b2e;
+    opacity: .9;
 }
 
 p{
@@ -70,6 +71,7 @@ p{
     padding: 5px 10px 5px 10px;
     text-align: justify;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -83,4 +85,29 @@ img{
     padding-left: 10px;
 }
 
+.pagename{
+    text-align: center;
+    font-size: 2em;
+}
+
+
 /*This the Target Audience page */
+.target-questions, .persona-info, .scenarios{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 1.5em;
+}
+
+/*This is the Color Scheme page */
+.colorpalette{
+    width: 400px;
+    height: auto;
+}
+
+/*This is the Typography */
+.headerfont, .paragraphfont{
+    font-size: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
