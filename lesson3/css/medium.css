@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em){
+    nav ul{
+        display: flex;
+        margin: 0;
+        padding-left: 0;
+     }
+     
+    nav ul li{
+        display: block;
+        flex: 1 1 auto;
+        text-align: center;
+    }
+    nav ul li a{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
