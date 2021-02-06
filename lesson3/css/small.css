@@ -90,6 +90,17 @@ img{
     font-size: 2em;
 }
 
+footer{
+    background-color: #89bbfe;
+}
+
+footer p{
+    text-align: center;
+    color: #001B2E;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
 
 /*This the Target Audience page */
 .target-questions, .persona-info, .scenarios{
@@ -123,7 +134,8 @@ img{
 
 .coloredparagraph{
     background-color: #B5838D;
-    color: white;
+    color: #001B2E;
+    font-weight: bold ;
 }
 
 .colorbody{
