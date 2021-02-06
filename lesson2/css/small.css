@@ -11,7 +11,7 @@ p {
 
 main {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr;
     background-color: white;
 }
 
@@ -21,7 +21,7 @@ header, footer {
 }
 
 .principlebox1, .principlebox2, .principlebox3 {
-    width: 320px;
+    width: 330px;
     border-radius: 3px;
     margin-top: 20px;
     box-shadow: 1px 1px 4px 1px #888;
@@ -71,20 +71,22 @@ header h2{
 }
 
 .principlebox1 {
-    grid-column: 1/2;
+    grid-column: 1/1;
     grid-row: 1/4;
     padding: 5px 10px 5px 10px;
     margin-left: 65px;
 }
 .principlebox2 {
-    grid-column: 2/3;
-    grid-row: 1/4;
-    padding: 5px 10px 5px 5px;
+    grid-column: 1/1;
+    grid-row: 5/8;
+    padding: 5px 10px 5px 10px;
+    margin-left: 65px;
 }
 .principlebox3 {
-    grid-column: 3/4;
-    grid-row: 1/4;
-    padding: 5px 10px 5px 5px;
+    grid-column: 1/1;
+    grid-row: 9/11;
+    padding: 5px 10px 5px 10px;
+    margin-left: 65px;
 }
 
 #info {
@@ -93,4 +95,5 @@ header h2{
     font-weight: bold;
     text-align: center;
     padding: 10px;
+    margin-left: 65px;
 }

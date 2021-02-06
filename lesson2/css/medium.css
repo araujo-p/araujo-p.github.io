@@ -1,3 +1,26 @@
-only screen and (min-width: 32.5em) {
-    
+@media only screen and (min-width: 32.5em){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+    }
+
+    .principlebox1 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        padding: 5px 10px 5px 10px;
+        margin-left: 65px;
+    }
+    .principlebox2 {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        padding: 5px 0 5px 15px;
+        margin-right: 0;
+    }
+    .principlebox3 {
+        grid-column: 1/2;
+        grid-row: 5/8;
+        padding: 5px 5px 5px 0;
+        margin-left: 0;
+    }
 }
