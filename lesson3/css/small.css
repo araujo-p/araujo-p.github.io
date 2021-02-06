@@ -101,8 +101,33 @@ img{
 
 /*This is the Color Scheme page */
 .colorpalette{
-    width: 400px;
+    width: 700px;
     height: auto;
+}
+
+.siteheader{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.headercolor{
+    font-size: 1em;
+    background-color: #89bbfe;
+    padding-left: 20px;
+}
+
+.headingscolor{
+    background-color: #001B2E;
+    color: white;
+}
+
+.coloredparagraph{
+    background-color: #B5838D;
+    color: white;
+}
+
+.colorbody{
+    padding-bottom: 60px;
 }
 
 /*This is the Typography */
