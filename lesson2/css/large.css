@@ -4,12 +4,25 @@
         grid-template-columns: 1fr 1fr 1fr;
         background-color: white;
     }
+
+    .principlebox1, .principlebox2, .principlebox3 {
+        width: 300px;
+        border-radius: 3px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 4px 1px #888;
+    }
+    
+    .come-unto-christ-img, .vaio-img, .samsung-img {
+        width: 290px;
+        height: auto;
+        padding: 5px;
+    }
     
     .principlebox1 {
         grid-column: 1/2;
         grid-row: 1/4;
-        padding: 5px 10px 5px 10px;
-        margin-left: 65px;
+        padding: 5px 10px 0 10px;
+        margin-left: 10px;
     }
     .principlebox2 {
         grid-column: 2/3;
