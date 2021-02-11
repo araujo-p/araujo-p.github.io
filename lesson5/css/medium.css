@@ -12,12 +12,15 @@
     #navbar li{
        display: block;
        flex: 1 1 auto;
+       white-space: nowrap;
+       font-size: 1em;
     }
     
     #navbar li a{
        border: none;
-       padding: .8rem 1rem;
+       padding: .8rem .8rem;
        text-align: center;
+       font-size: 1em;
     }
 
 }

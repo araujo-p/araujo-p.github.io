@@ -122,6 +122,73 @@ nav ul.responsive{
     display: none;
 }
 
+.main-heading{
+    font-size: 2em;
+}
+
+/*This is the Hero Image box*/
+.herobox {
+    margin: 10px auto;
+    position: relative;
+}
+
+/*This is the 5 day Forecast */
+.forecast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    border: 1px solid #001B2E;
+}
+
+.day1, .day2, .day3, .day4, .day5{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.forecast p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.forecast img{
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.summary{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background-color: #001B2E;
+    border: 1px solid #001B2E;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.summary h3 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #ccc;
+}
+.summary p {
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.summary span{
+    color: yellow;
+    padding-left: 5px;
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
