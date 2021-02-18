@@ -34,14 +34,20 @@
     <main>
         <h2 class="main-heading">Preston - Idaho</h2>
         <div class="herobox">
-        <img class="heroimage" src="images/hero-image.jpg" alt="A lake on the winter">
+        <picture>
+            <source media="(max-width: 480px)" srcset="images/wdd230_image_480.jpg">
+            <source media="(max-width: 800px)" srcset="images/wdd230_image_800.jpg">
+            <source media="(max-width: 1600px)" srcset="images/wdd230_image_1600.jpg">
+            <img class="heroimage" src="images/wdd230_image_franklinOriginal.jpeg" alt="A beautiful blue sky and trees">
+        </picture>
         <section class="summary">
             <h3>Weather Summary</h3>
             <p>Currently: <span id="currently">Cloudy</span></p>
-            <p>Temperature: <span id="temperature">43°F</span></p>
+            <p>Temperature: <span id="temperature">43</span></p>
             <p>Humidity: <span id="humidity">55%</span></p>
             <p>Precipitation: <span id="precipitation">15%</span></p>
-            <p>Wind Speed: <span id="windspeed">11 mph</span></p>
+            <p>Wind Speed: <span id="windspeed">11</span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
         </section>
         </div>
         <div class="forecast-box">
