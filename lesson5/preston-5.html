@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <aside id="friday-mgs"></aside>
         <picture><img id="logo" src="images/official-logo.png" alt="A woman walking on a winter day"></picture>
         <section class="headings">
             <h1 class="pagetitle">Weather Yourself</h1>
@@ -33,7 +34,7 @@
     <main>
         <h2 class="main-heading">Preston - Idaho</h2>
         <div class="herobox">
-        <img class="heroimage" src="images/hero-image.jpg" alt="A lake on the winter"></img>
+        <img class="heroimage" src="images/hero-image.jpg" alt="A lake on the winter">
         <section class="summary">
             <h3>Weather Summary</h3>
             <p>Currently: <span id="currently">Cloudy</span></p>
@@ -43,40 +44,65 @@
             <p>Wind Speed: <span id="windspeed">11 mph</span></p>
         </section>
         </div>
-        <div class="forecast">
-            <div class="day1">
-                <p>Wed</p>
-                <img class="imagine1" src="images/cloudy.png" alt="a cloud and rain drops">
-                <p>37°F</p>
-            </div>
-            <div class="day2">
-                <p>Wed</p>
-                <img class="imagine2" src="images/snowy.png" alt="a cloud and rain drops">
-                <p>37°F</p>
-            </div>
-            <div class="day3">
-                <p>Wed</p>
-                <img class="imagine3" src="images/rainy-snowy.png" alt="a cloud and rain drops">
-                <p>37°F</p>
-            </div>
-            <div class="day4">
-                <p>Wed</p>
-                <img class="imagine4" src="images/snowy.png" alt="a cloud and rain drops">
-                <p>37°F</p>
-            </div>
-            <div class="day5">
-                <p>Wed</p>
-                <img class="imagine5" src="images/cloudy.png" alt="a cloud and rain drops">
-                <p>37°F</p>
-            </div>
+        <div class="forecast-box">
+            <table class="forecast">
+                <caption class="tableheading">5 DAY FORECAST</caption>
+                    <tr>
+                        <th class="days">Wed</th>
+                        <th class="days">Thu</th>
+                        <th class="days">Fri</th>
+                        <th class="days">Sat</th>
+                        <th class="days">Sun</th>
+                    </tr>
+                    <tr>
+                        <td><img class="imagine1" src="images/cloudy.png" alt="a cloud and rain drops"></td>
+                        <td><img class="imagine2" src="images/snowy.png" alt="a snow flake"></td>
+                        <td><img class="imagine3" src="images/rainy-snowy.png" alt="rain and snow"></td>
+                        <td><img class="imagine4" src="images/snowy.png" alt="a snow flake"></td>
+                        <td><img class="imagine5" src="images/cloudy.png" alt="a cloud and rain drops"></td>
+                    </tr>
+                    <tr>
+                        <td class="temperature">37°F</td>
+                        <td class="temperature">36°F</td>
+                        <td class="temperature">37°F</td>
+                        <td class="temperature">36°F</td>
+                        <td class="temperature">25°F</td>
+                    </tr>
+            </table>
         </div>
-        <div class="contentbox">Article</div>
-        <div class="contentbox">Contact information</div>
+        <article class="articlebox">
+            <h3 class="article-title">Finding Joy during the Winter</h3>
+            <p class="article-author">by Patricia Araujo</p>
+            <img class="article-img" src="images/article-image.jpg" alt="a man skiing">
+            <p>As winter arrives, some other problems may come along such as the seasonal affective disorder. This disorder is still a mystery for scientists but we gather some tips that might help you overcome those feelings:</p>
+            <h4>1 - Getting some morning light</h4>
+            <p>Getting a morning light will help your biological clock understand that it is morning and therefore you will have more energy. Some scientists believe that the winter depression may happen due to the excess of melatonin in your body, which is the hormone that helps you fall asleep at night, working in opposite with the cortisol, which is the hormone that gives you the energy to get through the day. Getting a morning light will help your body produce the correct amount of melatonin.</p>
+            <h4>2 – Finding a sport or activity to do during winter</h4>
+            <p>Some people have shared that as they started practicing winter sports, they started to feel happier and more accomplished during the season. So, go find yourself a sport that you like to practice during that time.</p>
+            <h4>3- Taking vitamin D</h4>
+            <p>We have interviewed a group of people who said that when they started to drink vitamin D during the winter, they started feeling happier and having more energy. Taking vitamin D is also good for your immune system and it is actually prescript by some doctors for patients with depression.</p>
+        </article>
+        <picture class="map">
+            <img class="map-img" src="images/preston-map.JPG" alt="A Preston map">
+        </picture>
+        <section class="contact-info">
+            <h3>Weather Yourself</h3>
+            <p>&#128205; 390-000 E Oneida - St Preston, ID</p>
+            <p>&#9742; 555 308 9999</p>
+            <p>&#9993; contactus@weatheryourself.com</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/" target="_blank"><img class="icon" src="images/facebook.png" alt="Facebook"> </a>
+                <a href="https://www.instagram.com/accounts/login/?hl=pt-br" target="_blank"><img class="icon" src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/login?lang=pt" target="_blank"> <img class="icon" src="images/twitter.png" alt="Twitter"></a>
+            </div>
+        </section>
     </main>
     <footer>
-        <p id="info">&copy;Weather Yourself | Photo by Tim Stief on <a href="https://unsplash.com/photos/YFFGkE3y4F8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Unsplash</a> | Patricia Araujo</p>
+        <p id="info">&copy;Weather Yourself | Photo by Tim Stief on <a href="https://unsplash.com/photos/YFFGkE3y4F8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank">Unsplash</a> and Photo by Maarten Duineveld on <a href="https://unsplash.com/photos/2QNDSPCSzCI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Unplash</a> | Patricia Araujo</p>
         <p id="footerdate"></p>
+        <p class="iconscredits">Instagram icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Facebook icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Twitter icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
     <script src="js/responsive-menu.js"></script>
+    <script src="js/display-msg.js"></script>
 </body>
 </html>

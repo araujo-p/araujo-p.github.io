@@ -19,4 +19,110 @@
     .pagetitle{
         font-size: 40px;
     }
+    /*This is the 5 day Forecast Table */
+    .forecast-box{
+        padding-top: 5px;
+    }
+
+    .forecast{
+        margin: auto;
+        border-spacing: 0;
+        padding-bottom: 20px;
+    }
+    .tableheading{
+        font-family: 'Coda Caption', 'Arial Black', fantasy;
+        font-size: 1.5em;
+        color:#001B2E;
+        padding-bottom: 10px;
+    }
+    .imagine1, .imagine5{
+        width: 65px;
+        height: 65px;
+    }
+    
+    .imagine2, .imagine3, .imagine4 {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .temperature{
+        text-align: center;
+        background-color: #ACEDFF;
+        color: #001B2E;
+        font-weight: 700;
+    }
+    
+    td, th{
+        padding: 20px 66px 20px 66px;
+        font-family: 'Raleway', Helvetica, sans-serif;
+    }
+    
+    .days{
+        font-size: 1.2em;
+    }
+
+    /*This is the Hero Image box*/
+    .herobox {
+        margin: 10px auto;
+        position: relative;
+    }
+    .heroimage{
+        width: 100%;
+    }
+    
+    /*This is the Summary Box */
+    .summary{
+        position: absolute;
+        top: 25px;
+        left: 50px;
+    }
+    .summary h3 {
+        font-size: 1.2em;
+    }
+    .summary p {
+        margin: 0;
+        font-weight: bold;
+        line-height: 1.5em;
+        text-align: center;
+        color: white;
+    }
+    .summary span{
+        color: yellow;
+        padding-left: 5px;
+    }
+
+    /*This is the Article box */
+    .article-img{
+        width: 400px;
+    }
+
+    /*This is the contact Information box */
+    .contact-info{
+        width: 960px;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .map{
+        padding-right: 60px;
+        display: block;
+    }
+    .map-img{
+        float: left;
+        width: 400px;
+        height: auto;
+        padding-right: 20px;
+    }
+    .icon{
+        width: 60px;
+        height: auto;
+    }
+    .contact-info h3{
+        font-size: 1.2em;
+    }
+    
+    .contact-info p{
+        font-size: 1.2em;
+    }
+    
 }
