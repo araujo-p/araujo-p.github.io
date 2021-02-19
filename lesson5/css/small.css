@@ -272,8 +272,12 @@ article{
 }
 
 /*This is the Friday msg */
-.friday-mgs{
+#friday-mgs{
     background-color: yellow;
+    width: 320px;
+    height: auto;
+    padding-left: 0;
+    font-size: 1.5em;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
