@@ -12,10 +12,10 @@ imagesToLoad.forEach((img) => {
 })
 
 //Threshold effect
-const imgOptions = {
-    threshold: 0,
-    rootMargin: '0px 0px 50px 0px'
-};
+//const imgOptions = {
+//    threshold: 0,
+//    rootMargin: '0px 0px 50px 0px'
+//};
 
 if('IntersectionObserver' in window){
     const imgObserver = new IntersectionObserver((entries, imgObserver) => {
@@ -24,7 +24,7 @@ if('IntersectionObserver' in window){
                 loadImages(entry.target);
                 imgObserver.unobserve(entry.target);
             }
-        } , imgOptions);
+        });
     });
     imagesToLoad.forEach((img) =>{
         imgObserver.observe(img);
