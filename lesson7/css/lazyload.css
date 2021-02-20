@@ -8,11 +8,9 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.picturebox{
+main{
     display: grid;
-    grid-template-columns: 300px;
-    margin: auto;
-    padding: 0;
+    grid-template-columns: 1fr;
 }
 
 .picturebox picture img[data-src]{
