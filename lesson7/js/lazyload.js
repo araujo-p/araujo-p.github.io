@@ -11,24 +11,16 @@ imagesToLoad.forEach((img) => {
     loadImages(img);
 })
 
-
-//function preloadImage(img){
-//    const src = img.getAttribute("data-src");
-//    if(!src){
-//        return;
-//    }
-//    img.src = src;
-//}
-//
+//Threshold effect
 const imgOptions = {
     threshold: 0,
-    rootMargin: '0px 0px 300px 0px'
+    rootMargin: '0px 0px 50px 0px'
 };
 
 if('IntersectionObserver' in window){
-    const imgObserver = new IntersectionObserver((entries, imgObserver) => {
-        entries.forEach((entry) =>{
-            if(entries.isIntersecting){
+    const imgObserver = new IntersectionObserver((items, imgObserver) => {
+        items.forEach((item) =>{
+            if(item.isIntersecting){
                 loadImages(item.target);
                 imgObserver.unobserve(item.target);
             }
