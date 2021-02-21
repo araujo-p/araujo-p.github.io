@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap'); */
+main{
+    max-width: 960px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Coda Caption', 'Arial Black', fantasy;
+    color: #001B2E;
+}
+
+p{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #89bbfe;
+}
+
+img{
+    width: 60px;
+    padding-right: 5px;
+}
+
+nav button{
+    background-color:transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #001B2E;
+    margin: .2rem 2%;
+}
+
+nav{
+    margin: 0 auto;
+    background-color: rgba(181, 131, 141, .6);
+    padding: 0;
+    font-family:'Raleway', Helvetica, sans-serif;
+}
+
+#navbar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li a{
+    display: block;
+    padding: .8rem 2%;
+    color: #001b2e;
+    border-top: 1px solid rgba(181, 131, 141,.8);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#navbar li.active a{
+    background-color: rgba(181, 131, 141,.5); 
+    color: white;
+}
+
+#navbar li a:hover{
+    background-color: rgba(181, 131, 141,.8);
+    color: white;
+}
+
+footer{
+    background-color: #89bbfe;
+}
+
+#info{
+    padding: 10px 0 0 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+#footerdate{
+    padding-top: 5px;
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+.iconscredits{
+    font-size: .6em;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.pagetitle{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mottophrase{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.headings{
+    padding-bottom: 20px;
+}
+
+main h2{
+    text-align: center;
+}
+
+nav ul.responsive{
+    display: none;
+}
+
+.main-heading{
+    font-size: 2em;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

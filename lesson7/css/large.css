@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64em){
+    .navbar li a{
+        padding: .6rem 1rem;
+    }
+    .mottophrase{
+        text-align: center;
+    }
+
+    img{
+        width: 90px;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .heroimage{
+        width: 100%;
+        height: auto;
+    }
+
+    .pagetitle{
+        font-size: 40px;
+    }
+    
+}
