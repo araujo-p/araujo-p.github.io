@@ -1,7 +1,7 @@
 const imagesToLoad = document.querySelectorAll("[data-srcset]");
 
 const loadImages = (image) => {
-    image.setAttribute("src", image.getAttribute("data-srcset"));
+    image.setAttribute("srcset", image.getAttribute("data-srcset"));
     image.onload = () => {
         image.removeAttribute("data-srcset");
     }
