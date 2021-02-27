@@ -20,4 +20,8 @@
         font-size: 40px;
     }
     
+    /*This is the Gallery */
+    .content{
+        grid-template-columns: 400px 400px 400px;
+    }
 }

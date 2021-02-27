@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap'); */
 main{
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -122,6 +122,38 @@ nav ul.responsive{
 .main-heading{
     font-size: 2em;
 }
+
+/*This is the Gallery Area */
+.content{
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+main picture source[data-srcset]{
+    filter: blur(0.2em);
+}
+
+/*Change the unit here if needed */
+main picture img{
+    width: 90%;
+    padding: 10px 0 0 0;
+}
+
+.gallerypic:hover{
+    box-shadow: 6px 10px #ccc;
+}
+
+.caption-text{
+    padding-left: 1%;
+    height: 40px;
+    margin-top: 0;
+}
+
+/*figcaption{
+    display: none;
+}*/
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

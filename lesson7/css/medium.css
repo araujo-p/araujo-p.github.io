@@ -23,4 +23,9 @@
        font-size: 1em;
     }
 
+    /*This is the Gallery */
+    .content{
+      grid-template-columns: 400px;
+  }
+
 }
