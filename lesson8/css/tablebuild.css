@@ -21,12 +21,12 @@ table tr td{
 }
 
 td, th{
-    padding: 10px;
+    padding: 10px 20px;
     text-align: center;
 }
 
-table th{
-    font-size: 1.5rem;
+table thead tr:nth-child(1){
+    font-size: 2rem;
     background-color: #7fb9c2;
 }
 
@@ -34,14 +34,13 @@ tr:nth-child(even) td{
     background-color: #e7ffed;
 }
 
-table tr:nth-child(2) td{
+table thead tr:nth-child(2){
     background-color: #628ca6;
     color: white;
     font-size: 1.3rem;
-    font-weight: bold;
 }
 
-table tr:nth-child(7) td:nth-child(1){
+table tbody tr:nth-child(5) td:nth-child(1){
     font-style: italic;
 }
 
@@ -50,10 +49,7 @@ table tr .highlight{
     color: white;
 }
 
-table tr:nth-child(9) td{
+table tfoot tr td{
     background-color: #7fb9c2;
-}
-
-table td{
-    background-color: #e7f0ed;
+    font-size: .8rem;
 }
