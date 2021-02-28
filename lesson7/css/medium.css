@@ -26,6 +26,10 @@
     /*This is the Gallery */
     .content{
       grid-template-columns: 400px;
-  }
+    }
+
+    .picture-box {
+      width: 400px;
+    }
 
 }
