@@ -123,48 +123,6 @@ nav ul.responsive{
     font-size: 2em;
 }
 
-/*This is the Gallery Area */
-.content{
-    display: grid;
-    grid-template-columns: 300px;
-}
-
-main picture source[data-srcset]{
-    filter: blur(0.2em);
-}
-
-main picture source[srcset]{
-    filter: blur(0em);
-    transition: filter 0.5s;
-    padding-bottom: 10px;
-}
-
-/*Change the unit here if needed */
-.picture-box {
-    width: 300px;
-    padding: 0;
-    margin: 0;
-}
-
-.picture-box picture img{
-    width: 90%;
-    padding: 10px 0 0 0;
-}
-
-.picture-box:hover{
-    box-shadow: 6px 10px #ccc;
-}
-
-.caption-text{
-    padding-left: 1%;
-    height: 40px;
-    margin-top: 0;
-}
-
-.caption-text{
-    display: none;
-}
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

@@ -124,7 +124,7 @@ nav ul.responsive{
 }
 
 /*This is the Gallery Area */
-.content{
+/*.content{
     display: grid;
     grid-template-columns: 300px;
 }
@@ -137,10 +137,10 @@ main picture source[srcset]{
     filter: blur(0em);
     transition: filter 0.5s;
     padding-bottom: 10px;
-}
+}*/
 
 /*Change the unit here if needed */
-.picture-box {
+/*.picture-box {
     width: 300px;
     padding: 0;
     margin: 0;
@@ -163,7 +163,7 @@ main picture source[srcset]{
 
 .caption-text{
     display: none;
-}
+}*/
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
