@@ -166,6 +166,7 @@ main picture source[srcset]{
 }
 
 
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

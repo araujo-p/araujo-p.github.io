@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap'); */
 main{
-    max-width: 1200px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -123,47 +123,100 @@ nav ul.responsive{
     font-size: 2em;
 }
 
-/*This is the Gallery Area */
-/*.content{
-    display: grid;
-    grid-template-columns: 300px;
+/*---------------------- FORM ---------------------------*/
+form {
+    font-family: 'Raleway', Helvetica, sans-serif;;
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid #89bbfe;
+    border-radius: 6px;
+    padding: .5rem 2%;
 }
 
-main picture source[data-srcset]{
-    filter: blur(0.2em);
+form legend {
+    color: #001b2e;
+    font-weight: 700;
+    margin: 0 1rem;
+    padding: .5rem 1%;
+    font-size: 1.3rem;
 }
 
-main picture source[srcset]{
-    filter: blur(0em);
-    transition: filter 0.5s;
-    padding-bottom: 10px;
-}*/
-
-/*Change the unit here if needed */
-/*.picture-box {
-    width: 300px;
-    padding: 0;
-    margin: 0;
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: .9rem;
 }
 
-.picture-box picture img{
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 15rem;
+    background-color: lightgray;
+}
+
+form fieldset label.middle {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 15rem;
+}
+
+form label.middle input {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 20rem;
+    background-color:  lightgray;
+}
+
+form label.middle select{
+    padding: .75rem;
+    font-size: 1rem;
+    color: #001b2e;
+}
+
+form label.danger-level {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form label.textbox, form textarea{
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #001b2e;
     width: 90%;
-    padding: 10px 0 0 0;
 }
 
-.picture-box:hover{
-    box-shadow: 6px 10px #ccc;
+form input.submitBtn{
+    border: none;
+    background-color: #001b2e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
 }
 
-.caption-text{
-    padding-left: 1%;
-    height: 40px;
-    margin-top: 0;
+form input.submitBtn:hover{
+    color: #001B2E;
+    background-color: #89bbfe;
+    font-weight: 700;
 }
 
-.caption-text{
-    display: none;
-}*/
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

@@ -1,1 +1,47 @@
-<div></div>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the preston page assignment">
+    <link href="css/normalize.css" rel="normalizesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon">
+    <title>Weather Yourself</title>
+</head>
+<body>
+    <header>
+        <picture><img id="logo" src="images/official-logo.png" alt="A woman walking on a winter day"></picture>
+        <section class="headings">
+            <h1 class="pagetitle">Weather Yourself</h1>
+            <div class="mottophrase">Your daily weather news just one click away!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navbar" class="responsive">
+            <li><a href="">Home</a></li>
+            <li><a href="https://araujo-p.github.io/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="https://araujo-p.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://araujo-p.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>Storm Center</h1>
+        <p>Thank you for reporting a storm or unusual weather and helping us keep our citizens safe!</p>
+
+    </main>
+    <footer>
+        <p id="info">&copy;Weather Yourself | Patricia Araujo</p>
+        <p id="footerdate"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+    <script src="js/responsive-menu.js"></script>
+    <script src="js/gallery-js.js"></script>
+</body>
+</html>
