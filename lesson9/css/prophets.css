@@ -1,0 +1,83 @@
+main {
+    max-width: 970px;
+    margin: auto;
+}
+
+header h1{
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: #0B2545;
+    padding-top: 0;
+    margin-top: 0;
+    height: 70px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    background-color: #0B2545;
+    height: 30px;
+    margin-top: 1%;
+}
+
+main div.cards {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: .5%;
+    color: #00241B;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0 .5% .5% .5%;
+    margin: 0 .5% .5% .5%;
+    font-size: .8rem;
+}
+
+section {
+    width: 250px;
+    height: 300px;
+    background-color: #93E5AB;
+    border: 1px solid #65B891;
+    margin: 1% 1%;
+    padding: 1%;
+}
+
+main section img {
+    display: block;
+    width: 60%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------ Medium Views ---------- */
+@media only screen and (min-width: 32.5em){
+    main div.cards {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+/*------------ Large Views ------------ */
+@media only screen and (min-width: 64em){
+    main div.cards {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    header h1{
+        font-size: 3em;
+    }
+
+}
