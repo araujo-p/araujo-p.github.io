@@ -242,8 +242,12 @@ article{
 }
 
 /*This is the contact Information box */
+.contact-box{
+    margin-top: 2%;
+}
+
 .contact-info{
-    width: 960px;
+    max-width: 960px;
     height: 300px;
     padding: 20px;
 }

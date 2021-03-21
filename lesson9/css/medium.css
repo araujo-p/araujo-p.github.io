@@ -23,5 +23,9 @@
        font-size: 1em;
     }
 
+   /*----------CONTACT INFORMATION BOX -----------*/
+    .map{
+         display: block;
+    }
 
 }

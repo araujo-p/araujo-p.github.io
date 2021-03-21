@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap'); */
 main{
-    max-width: 1200px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -121,6 +121,62 @@ nav ul.responsive{
 
 .main-heading{
     font-size: 2em;
+}
+
+/*----------HERO BOX -------------*/
+
+.herobox {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+}
+
+.heroimage{
+    width: 100%;
+}
+
+/*----------CONTACT INFORMATION BOX -------- */
+.contact-box{
+    margin-top: 2%;
+}
+
+.contact-info{
+    max-width: 960px;
+    height: 300px;
+    padding: 20px;
+}
+.contact-info h3{
+    font-size: .8em;
+}
+
+.contact-info p{
+    font-size: .8em;
+}
+
+.map{
+    padding-right: 60px;
+    display: none;
+}
+
+.map-img{
+    width: 200px;
+    height: auto;
+    padding-top: 30px;
+ }
+
+.icon{
+    width: 60px;
+    height: auto;
+}
+
+/*------------ WIREFRAMES ------------------------------*/
+.wireframes{
+    max-width: 960px;
+    margin: auto;
+}
+
+.wireframes_body{
+    text-align: center;
 }
 
 

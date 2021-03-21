@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the preston page assignment">
+    <meta name="description" content="This is the home page assignment">
     <link href="css/normalize.css" rel="normalizesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -30,9 +30,36 @@
             <li><a href="https://araujo-p.github.io/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
+    <main>
+        <div class="herobox">
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/orange_flower_480.jpg">
+                <source media="(max-width: 800px)" srcset="images/orange_flower_800.jpg">
+                <source media="(max-width: 1600px)" srcset="images/Orange_flower_1600.jpg">
+                <img class="heroimage" src="images/orange_flower.jpg" alt="Orange field flowers">
+            </picture>
+        </div>
+        <div class="contact-box">
+            <picture class="map">
+            <img class="map-img" src="images/preston-map.JPG" alt="A Preston map">
+            </picture>
+            <section class="contact-info">
+            <h3>Weather Yourself</h3>
+            <p>&#128205; 390-000 E Oneida - St Preston, ID</p>
+            <p>&#9742; 555 308 9999</p>
+            <p>&#9993; contactus@weatheryourself.com</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="images/facebook.png" alt="Facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"> <img class="icon" src="images/twitter.png" alt="Twitter"></a>
+            </div>
+            </section>
+        </div>
+    </main>
     <footer>
         <p id="info">&copy;Weather Yourself | Patricia Araujo</p>
         <p id="footerdate"></p>
+        <p class="iconscredits">Instagram icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Facebook icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Twitter icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontloader.js"></script>
