@@ -135,6 +135,85 @@ nav ul.responsive{
     width: 100%;
 }
 
+/*----------TOWN DATA SECTION -------- */
+div.infographic section{
+    background-color: #89bbfe;
+    display: block;
+    width: 300px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+    margin: auto;
+}
+
+div.infographic section p{
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+div.infographic section article:nth-child(3){
+    padding-bottom: 6%;
+}
+
+div.infographic section h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 6%;
+}
+
+div.infographic section article img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+
+div.infographic section p.motto{
+    font-style: italic;
+}
+
+
+/*---------- ARTICLE -------- */
+main article.curiosity {
+    background-color: rgba(181, 131, 141,.8);
+    box-shadow: 10px 10px 5px gray;
+    width: 100%;
+}
+
+main article.curiosity h2{
+    padding-top: 4%;
+}
+
+main article.curiosity p:nth-child(2){
+    padding: 2% 3%;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main article.curiosity p.article-button{
+    text-align: right;
+    padding: 5%;
+    color: white;
+}
+
+main article.curiosity p.article-button a.read-more{
+    text-decoration: none;
+    border: none;
+    background-color: #001B2E;
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+main article.curiosity p.article-button a.read-more:hover{
+    background-color: #89bbfe;
+    color: #001b2e;
+    font-weight: 700;
+}
+
+
 /*----------CONTACT INFORMATION BOX -------- */
 .contact-box{
     margin-top: 2%;
