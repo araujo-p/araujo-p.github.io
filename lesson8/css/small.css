@@ -125,13 +125,15 @@ nav ul.responsive{
 
 /*---------------------- FORM ---------------------------*/
 form {
-    font-family: 'Raleway', Helvetica, sans-serif;;
+    font-family: 'Raleway', Helvetica, sans-serif;
 }
 form fieldset{
     margin: 2rem 0;
-    border: 2px solid #89bbfe;
+    border: 2px solid #001B2E;
     border-radius: 6px;
     padding: .5rem 2%;
+    background-attachment: fixed;
+    background-color: lightgrey;
 }
 
 form legend {
@@ -145,8 +147,9 @@ form legend {
 form label.top {
     display: block;
     padding-top: 1rem;
-    color: blue;
+    color: #001B2E;
     font-size: .9rem;
+    font-weight: 700;
 }
 
 form label.top input {
@@ -157,7 +160,7 @@ form label.top input {
     color: #001b2e;
     width: 100%;
     max-width: 15rem;
-    background-color: lightgray;
+    background-color: #fff;
 }
 
 form fieldset label.middle {
@@ -167,6 +170,7 @@ form fieldset label.middle {
     color: #001b2e;
     width: 100%;
     max-width: 15rem;
+    font-weight: 700;
 }
 
 form label.middle input {
@@ -176,7 +180,7 @@ form label.middle input {
     color: #001b2e;
     width: 100%;
     max-width: 20rem;
-    background-color:  lightgray;
+    background-color:  #fff;
 }
 
 form label.middle select{
@@ -185,10 +189,12 @@ form label.middle select{
     color: #001b2e;
 }
 
+
 form label.danger-level {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: #001B2E;
+    font-weight: 700;
 }
 
 form label.textbox, form textarea{
@@ -198,6 +204,7 @@ form label.textbox, form textarea{
     padding: .75rem;
     color: #001b2e;
     width: 90%;
+    font-weight: 700;
 }
 
 form input.submitBtn{

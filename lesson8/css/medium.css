@@ -23,4 +23,7 @@
        font-size: 1em;
     }
 
-}
+    /*------------- FROM ----------*/
+    form label.top input {
+      max-width: 50%;
+    }
