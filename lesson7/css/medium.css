@@ -23,7 +23,8 @@
        font-size: 1em;
     }
 
-    /*This is the Gallery */
-    .content{
+    /* This is the Gallery */
+   .content{
       grid-template-columns: 1fr 1fr;
     }
+}
