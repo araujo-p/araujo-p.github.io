@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the preston page assignment">
+    <link href="css/normalize.css" rel="normalizesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon">
+    <title>Weather Yourself</title>
+</head>
+<body>
+    <header>
+        <picture><img id="logo" src="images/official-logo.png" alt="A woman walking on a winter day"></picture>
+        <section class="headings">
+            <h1 class="pagetitle">Weather Yourself</h1>
+            <div class="mottophrase">Your daily weather news just one click away!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navbar" class="responsive">
+            <li><a href="https://araujo-p.github.io/lesson11/index.html">Home</a></li>
+            <li><a href="https://araujo-p.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="https://araujo-p.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://araujo-p.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="content-stormcenter">
+        <div class="formcontainer">
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Reporter's Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fullName" pattern="[A-Za-z]{8,}" title="Must contain at least 5 characters" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Zip Code* <input type="number" name="zipcode" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="middle">Storm date <input type="date" name="completeDate"></label>
+                    <label class="middle">Storm type <input list="storm-type" name="storm-type-choice"></label>
+                    <datalist id="storm-type">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                    <label class="middle" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp; <input id="rating" class="middle" type="range" value="1" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">1</span></label>
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist> 
+                    <label class="middle">Storm Region 
+                        <select name="subject">
+                            <option value="">Please Select </option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Spring">Soda Spring</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Idaho Falls">Idaho Falls</option>
+                            <option value="Nampa">Nampa</option>
+                            <option value="Burley">Burley</option>
+                            <option value="Rexburg">Rexburg</option>
+                            <option value="Post Falls">Post Falls</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>User In-Danger Level</legend>
+                    <label class="danger-level"><input type="radio" name="danger-level" value="beginner"> Yes</label>
+                    <label class="danger-level"><input type="radio" name="danger-level" value="beginner"> Maybe</label>
+                    <label class="danger-level"><input type="radio" name="danger-level" value="beginner"> No</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label class="textbox" for="additional-info">Please, type any additional information here:</label>
+                    <textarea id="additional-info" name="additional-info" rows="4" cols="50"></textarea>
+                </fieldset>
+                
+                <input type="submit" value="Report a Storm" class="submitBtn">
+        
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p id="info">&copy;Weather Yourself | Patricia Araujo</p>
+        <p id="footerdate"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+    <script src="js/responsive-menu.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

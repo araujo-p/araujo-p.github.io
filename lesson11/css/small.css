@@ -1,0 +1,534 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Raleway:wght@500&display=swap'); */
+main{
+    max-width: 960px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Coda Caption', 'Arial Black', fantasy;
+    color: #001B2E;
+}
+
+p{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #89bbfe;
+}
+
+img{
+    width: 60px;
+    padding-right: 5px;
+}
+
+nav button{
+    background-color:transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #001B2E;
+    margin: .2rem 2%;
+}
+
+nav{
+    margin: 0 auto;
+    background-color: rgba(181, 131, 141, .6);
+    padding: 0;
+    font-family:'Raleway', Helvetica, sans-serif;
+}
+
+#navbar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li a{
+    display: block;
+    padding: .8rem 2%;
+    color: #001b2e;
+    border-top: 1px solid rgba(181, 131, 141,.8);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#navbar li.active a{
+    background-color: rgba(181, 131, 141,.5); 
+    color: white;
+}
+
+#navbar li a:hover{
+    background-color: rgba(181, 131, 141,.8);
+    color: white;
+}
+
+footer{
+    background-color: #89bbfe;
+}
+
+#info{
+    padding: 10px 0 0 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+#footerdate{
+    padding-top: 5px;
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+.iconscredits{
+    font-size: .6em;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.pagetitle{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mottophrase{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.headings{
+    padding-bottom: 20px;
+}
+
+main h2{
+    text-align: center;
+}
+
+nav ul.responsive{
+    display: none;
+}
+
+.main-heading{
+    font-size: 2em;
+}
+
+/*----------HERO BOX -------------*/
+
+.herobox {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+}
+
+.heroimage{
+    width: 100%;
+}
+
+/*----------TOWN DATA SECTION -------- */
+div.infographic section{
+    background-color: #89bbfe;
+    display: block;
+    width: 300px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+    margin: auto;
+}
+
+div.infographic section p{
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: .8em;
+}
+
+div.infographic section article:nth-child(3){
+    padding-bottom: 6%;
+}
+
+div.infographic section h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 6%;
+}
+
+div.infographic section article img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+
+div.infographic section p.motto{
+    font-style: italic;
+}
+
+
+/*---------- ARTICLE -------- */
+main article.curiosity {
+    background-color: rgba(181, 131, 141,.8);
+    box-shadow: 10px 10px 5px gray;
+    width: 100%;
+}
+
+main article.curiosity h2{
+    padding-top: 4%;
+}
+
+main article.curiosity p:nth-child(2){
+    padding: 2% 3%;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main article.curiosity p.article-button{
+    text-align: right;
+    padding: 5%;
+    color: white;
+}
+
+main article.curiosity p.article-button a.read-more{
+    text-decoration: none;
+    border: none;
+    background-color: #001B2E;
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+main article.curiosity p.article-button a.read-more:hover{
+    background-color: #89bbfe;
+    color: #001b2e;
+    font-weight: 700;
+}
+
+
+/*----------CONTACT INFORMATION BOX -------- */
+.contact-box{
+    margin-top: 2%;
+}
+
+.contact-info{
+    max-width: 960px;
+    height: 300px;
+    padding: 20px;
+}
+.contact-info h3{
+    font-size: .8em;
+}
+
+.contact-info p{
+    font-size: .8em;
+}
+
+.map{
+    padding-right: 60px;
+    display: none;
+}
+
+.map-img{
+    width: 200px;
+    height: auto;
+    padding-top: 30px;
+ }
+
+.icon{
+    width: 60px;
+    height: auto;
+}
+
+/*------------ WIREFRAMES ------------------------------*/
+.wireframes{
+    max-width: 960px;
+    margin: auto;
+}
+
+.wireframes_body{
+    text-align: center;
+}
+
+/*------------ PRESTON PAGE ------------------------------*/
+/*This is the Summary Box for Preston, Fish Haven and Soda Springs*/
+
+.summary{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: #001B2E;
+    border: 1px solid #001B2E;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.summary h3 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #ccc;
+    font-size: 1em;
+}
+.summary p {
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.summary span{
+    color: yellow;
+    padding-left: 5px;
+}
+
+/*This is the Friday msg */
+#friday-mgs{
+    background-color: yellow;
+    padding-left: 0;
+    font-size: 1.2em;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    align-self:initial;
+}
+
+/*This is the 5 day Forecast Table  for Preston, Fish Haven and Soda Springs*/
+.forecast-box{
+    padding-top: 100px;
+}
+
+.forecast{
+    margin: auto;
+    border-spacing: 0;
+    padding: 20px 5px 40px 5px;
+}
+
+.tableheading{
+    font-family: 'Coda Caption', 'Arial Black', fantasy;
+    font-size: 1.5em;
+    color:#001B2E;
+    padding-bottom: 10px;
+}
+
+.imagine1, .imagine2, .imagine3, .imagine4, .imagine5{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.temperature{
+    text-align: center;
+    background-color: #ACEDFF;
+    color: #001B2E;
+    font-weight: 700;
+    font-size: .7em;
+    white-space: nowrap;
+}
+
+td, th{
+    padding: 10px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.days{
+    background-color: #b5838d;
+    font-weight: bold;
+    color:#001B2E;
+    font-size: .8em;
+}
+
+/*This is the article box for Preston Page*/
+.articlebox{
+    padding: 20px;
+    background-color: #b5838d;
+    text-align: justify;
+}
+
+.article-img{
+    width: 200px;
+    height: auto;
+    padding-left: 10px;
+}
+.article-title{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.article-author{
+    text-align: left;
+    font-style: italic;
+    padding: 0 20px 5px 5px;
+    margin-top: 0;
+    font-size: .8em;
+}
+
+/*------------------------- STORM CENTER -------------------*/
+.content-stormcenter{
+    max-width: 960px;
+    margin: auto;
+}
+
+form {
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid #001B2E;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    background-attachment: fixed;
+    background-color: lightgrey;
+}
+
+form legend {
+    color: #001b2e;
+    font-weight: 700;
+    margin: 0 1rem;
+    padding: .5rem 1%;
+    font-size: 1.3rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: #001B2E;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #fff;
+}
+
+form fieldset label.middle {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 15rem;
+    font-weight: 700;
+}
+
+form label.middle input {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #001b2e;
+    width: 100%;
+    max-width: 20rem;
+    background-color:  #fff;
+}
+
+form label.middle select{
+    padding: .75rem;
+    font-size: 1rem;
+    color: #001b2e;
+}
+
+
+form label.danger-level {
+    display: block;
+    padding: .75rem 0;
+    color: #001B2E;
+    font-weight: 700;
+}
+
+form label.textbox, form textarea{
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #001b2e;
+    width: 90%;
+    font-weight: 700;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #001b2e;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover{
+    color: #001B2E;
+    background-color: #89bbfe;
+    font-weight: 700;
+}
+
+/*-------------------------- GALLERY ---------------------*/
+/*This is the Gallery Area */
+.gallery-area{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main picture source[data-srcset]{
+    filter: blur(0.2em);
+}
+
+main picture source[srcset]{
+    filter: blur(0em);
+    transition: filter 0.5s;
+    padding-bottom: 10px;
+}
+
+/*Change the unit here if needed */
+.picture-box {
+    width: auto;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+}
+
+.picture-box picture img{
+    width: 100%;
+    height: auto;
+}
+
+.caption-text{
+    padding-left: 1%;
+    height: 10px;
+    margin-top: 0;
+    padding-top: 1%;
+    display: none;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

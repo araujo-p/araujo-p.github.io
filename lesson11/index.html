@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the home page assignment">
+    <link href="css/normalize.css" rel="normalizesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon">
+    <title>Weather Yourself</title>
+</head>
+<body>
+    <header>
+        <picture><img id="logo" src="images/official-logo.png" alt="A woman walking on a winter day"></picture>
+        <section class="headings">
+            <h1 class="pagetitle">Weather Yourself</h1>
+            <div class="mottophrase">Your daily weather news just one click away!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navbar" class="responsive">
+            <li class="active"><a href="https://araujo-p.github.io/lesson11/index.html">Home</a></li>
+            <li><a href="https://araujo-p.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="https://araujo-p.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://araujo-p.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="herobox">
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/orange_flower_480.jpg">
+                <source media="(max-width: 800px)" srcset="images/orange_flower_800.jpg">
+                <source media="(max-width: 1600px)" srcset="images/orange_flower_1600.jpg">
+                <img class="heroimage" src="images/orange_flower.jpg" alt="Orange field flowers">
+            </picture>
+        </div>
+        <div class="infographic"></div>
+
+        <article class="curiosity">
+            <h2>Did you know?</h2>
+            <p>Although the solstice gets an entire day of recognition, it happens in an instant: At 5:02 a.m. EST (10:02 a.m. GMT) on Monday (Dec. 21), when the North Pole is at its farthest tilt of 23.5 degrees away from the sun. This position leaves the North Pole beyond the sun's reach, and plunges it into total darkness, according to EarthSky.org.</p>
+            <p class="article-button"><a href="https://www.livescience.com/57280-winter-solstice-science-explained.html" class="read-more" target="_blank">Read the whole article</a></p>
+        </article>
+
+
+        <div class="contact-box">
+            <picture class="map">
+            <img class="map-img" src="images/preston-map.JPG" alt="A Preston map">
+            </picture>
+            <section class="contact-info">
+            <h3>Weather Yourself</h3>
+            <p>&#128205; 390-000 E Oneida - St Preston, ID</p>
+            <p>&#9742; 555 308 9999</p>
+            <p>&#9993; contactus@weatheryourself.com</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="images/facebook.png" alt="Facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com" target="_blank"> <img class="icon" src="images/twitter.png" alt="Twitter"></a>
+            </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p id="info">&copy;Weather Yourself | Patricia Araujo</p>
+        <p id="footerdate"></p>
+        <p class="iconscredits">Instagram icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Facebook icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, Twitter icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+    <script src="js/responsive-menu.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
