@@ -2,7 +2,7 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&app
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
     let day = 0;
     const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 

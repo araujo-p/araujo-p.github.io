@@ -25,11 +25,5 @@
 
     /*This is the Gallery */
     .content{
-      grid-template-columns: 400px;
+      grid-template-columns: 1fr 1fr;
     }
-
-    .picture-box {
-      width: 400px;
-    }
-
-}

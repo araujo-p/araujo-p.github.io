@@ -22,10 +22,13 @@
     
     /*This is the Gallery */
     .content{
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .caption-text{
         display: block;
     }
-}
+
+    .picture-box:hover{
+        box-shadow: 6px 5px 5px #ccc;
+    }
