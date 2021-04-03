@@ -524,6 +524,57 @@ main picture source[srcset]{
     display: none;
 }
 
+/*------------------------- SODA SPRINGS ----------------*/
+.articlebox-soda {
+    padding: 20px;
+    background-color: #b5838d;
+    text-align: justify;
+}
+
+.article-title-soda{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.articlebox-soda .website-link{
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    background-color: #001B2E;
+    color: #fff;
+    text-decoration: none;
+}
+
+.articlebox-soda .website-link:hover{
+    color: #001B2E;
+    background-color: #89bbfe;
+    font-weight: 700;
+}
+
+/*------------------------- FISH HAVEN ----------------*/
+.articlebox-fish{
+    padding: 20px;
+    background-color: #b5838d;
+    text-align: justify;
+}
+
+.article-title-fish{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.articlebox-fish .website-link{
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    background-color: #001B2E;
+    color: #fff;
+    text-decoration: none;
+}
+
+.articlebox-fish .website-link:hover{
+    color: #001B2E;
+    background-color: #89bbfe;
+    font-weight: 700;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
