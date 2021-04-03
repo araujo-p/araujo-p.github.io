@@ -374,6 +374,24 @@ td, th{
     font-size: .8em;
 }
 
+/*This is the  Fish Haven event section */
+.events-preston{
+    background-color: #89bbfe;
+    border-radius: 5px;
+    padding: 2% 1%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 5px #001B2E;
+}
+
+.events-preston h3{
+    text-align: center;
+}
+
+.events-preston p{
+    text-align: center;
+    line-height: .8em;
+}
+
 /*------------------------- STORM CENTER -------------------*/
 .content-stormcenter{
     max-width: 960px;
@@ -550,11 +568,30 @@ main picture source[srcset]{
     font-weight: 700;
 }
 
+/*This is the  Soda Springs event section */
+.events-soda{
+    background-color: #89bbfe;
+    border-radius: 5px;
+    padding: 2% 1%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 5px #001B2E;
+}
+
+.events-soda h3{
+    text-align: center;
+}
+
+.events-soda p{
+    text-align: center;
+    line-height: .8em;
+}
+
 /*------------------------- FISH HAVEN ----------------*/
 .articlebox-fish{
     padding: 20px;
     background-color: #b5838d;
     text-align: justify;
+    margin-top: 10%;
 }
 
 .article-title-fish{
@@ -574,6 +611,24 @@ main picture source[srcset]{
     color: #001B2E;
     background-color: #89bbfe;
     font-weight: 700;
+}
+
+/*This is the  Fish Haven event section */
+.events-fish{
+    background-color: #89bbfe;
+    border-radius: 5px;
+    padding: 2% 1%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 5px #001B2E;
+}
+
+.events-fish h3{
+    text-align: center;
+}
+
+.events-fish p{
+    text-align: center;
+    line-height: .8em;
 }
 
 
