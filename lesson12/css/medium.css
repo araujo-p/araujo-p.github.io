@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em){
+/*---------------- NAVIGATION BAR -----------------------*/
+    nav button {
+        display: none;
+    }
+    nav ul.responsive{
+        display: block;
+    }
+    div.nav-box {
+        grid-column: 2/2;
+        background-color: #426a5a;
+        align-content: center;
+        justify-content: center;
+        padding: 2% 0 0 0;
+    }
+  
+    #navbar{
+        display: flex;
+     }
+     
+     #navbar li{
+        display: block;
+        flex: 1 1 auto;
+        white-space: nowrap;
+        font-size: 1em;
+     }
+
+}
