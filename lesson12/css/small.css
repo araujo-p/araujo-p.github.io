@@ -2,7 +2,7 @@
 
 /*--------------------- GENERAL STYLING ------------------*/
 main {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -111,6 +111,103 @@ footer{
   padding-top: 0;
   margin-top: 0;
   color: #fff;
+}
+
+/*------------------------ INDEX PAGE -------------------*/
+h1.page-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+div.herobox {
+  max-width: 1000px;
+}
+
+div.herobox img{
+  width: 100%;
+}
+
+/*----------- weather summary ----------------------------*/
+
+section.weather-summary {
+  max-width: 200px;
+  background-color: rgba(239, 111, 108, .9);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 30px #f2c57c;
+}
+
+section.weather-summary h3 {
+  font-weight: bold;
+}
+
+section.weather-summary p {
+  color: #fff;
+  font-weight: 800;
+}
+
+section.weather-summary span{
+  color: #426a5a;
+  font-weight: 800;
+}
+
+section.weather-summary span#description {
+  text-transform: capitalize;
+}
+
+/*----------------------- forecast ---------------------------*/
+section.forecast {
+  width: 300px;
+}
+
+section.forecast h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+div.all-days {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+
+section.forecast p {
+  text-align: center;
+  background-color: #ef6f6c;
+  padding: 5%;
+  border-right: 1px solid #f2c57c;
+}
+
+section.forecast img {
+  display: block;
+  margin: auto;
+}
+
+/*---------------------------- events ------------------- */
+div.events {
+  background-color: #7fb685;
+  border: #426a5a;
+  border-style: double;
+  box-shadow: 5px 5px 3px #426a5a;
+  text-align: center;
+}
+
+div.events h3 {
+  color: #fff;
+  font-weight: bold;
+}
+
+/*----------------------------- call to action --------------*/
+article.call-to-action{
+  background-color: #f2c57c;
+  border: 3px solid #ddae7e;
+  border-style:ridge;
+  text-align: center;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+article.call-to-action h3 {
+ font-weight: bold;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

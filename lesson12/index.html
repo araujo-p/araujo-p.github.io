@@ -15,7 +15,7 @@
     <header>
         <aside>
             <picture>
-                <img src="images/logo.png" class="logo">
+                <img src="images/logo.png" class="logo" alt="logo">
             </picture> 
         </aside>
         <div class="nav-box">
@@ -32,20 +32,66 @@
         </div>
     </header>
     <main>
-        <div class="placeholder">
+        <h1 class="page-title">Udi Commerce</h1>
 
+        <div class="herobox">
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/uberlandia_1_480.jpg">
+                <source media="(max-width: 800px)" srcset="images/uberlandia_1_800.jpg">
+                <source media="(max-width: 1600px)" srcset="images/uberlandia_1_1600.jpg">
+                <img class="heroimage" src="images/uberlandia_1_50small.jpg" alt="A photo of Uberlandia">
+            </picture>
+        </div>
+
+        <div class="weather-info">
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <p>Temperature: <span id="temperature"></span><span>&deg;C</span></p>
+            <p><span id="description"></span></p>
+            <p>Humidity: <span id="humidity"></span><span>%</span></p>
+        </section>
+        <section class="forecast">
+            <h3>3 day forecast</h3>
+            <div class="all-days">
+                <div class="day-box">
+                    <p id="day1"></p>
+                    <img id="icon1" src="" alt="">
+                    <p id="temp1"></p>
+                </div>
+                <div class="day-box">
+                    <p id="day2"></p>
+                    <img id="icon2" src="" alt="">
+                    <p id="temp2"></p>
+                </div>
+                <div class="day-box">
+                    <p id="day3"></p>
+                    <img id="icon3" src="" alt="">
+                    <p id="temp3"></p>
+                </div>
+            </div>
+        </section>
+        </div>
+        <article>
+            <h2>Our Purpose</h2>
+            <p>We are Udi Commerce and our purpose is to help small local business to advertise their products and services through marketing and network with other members of the chamber. We seek to strengthen local business in Uberlandia, helping them reach out to more people and grow, and as result of their growth, become a source of employment for citizens of city.</p>
+        </article>
+
+        <div class="events">
+            <h3>UPCOMING EVENTS</h3>
+            <p>May 7: I'll See in the Park (Te Vejo no Parque)</p>
+            <p>May 22: Luccas Neto and the Adventurer School (Luccas Neto e a Escola de Aventureiros)</p>
+            <p>June 12: Amigos em Uberlandia (Friends in Uberlandia)</p>
         </div>
 
         <div class="placeholder">
-
+            local business
         </div>
-
-        <div class="placeholder">
-
-        </div>
-        <div class="placeholder">
-
-        </div>
+        <article class="call-to-action">
+            <h3>Do you like what you see?</h3>
+            <p>Come join us!</p>
+            <p>Be part of of our family and boost your business.</p>
+            <p><a href="https://araujo-p.github.io/lesson12/join.html">Join the Chamber</a></p>
+        </article>
 
 
     </main>
@@ -58,5 +104,6 @@
     <script src="js/webfontloader.js"></script>
     <script src="js/responsive-menu.js"></script>
     <script src="js/update-info.js"></script>
+    <script src="js/weather-home.js"></script>
 </body>
 </html>
