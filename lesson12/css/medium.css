@@ -23,4 +23,23 @@
         flex: 1 1 auto;
      }
 
+/*------------------- HOME PAGE ---------------------------*/
+
+/*--------------- weather box -------------------------*/
+    .weather-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+/*----------------------- events box ---------------------*/
+    div.events {
+        float:right;
+        max-width: 250px;
+    }
+
+/*-------------------------- local business ----------------*/
+    div.placeholder {
+        max-width: 300px;
+    }
+
 }
