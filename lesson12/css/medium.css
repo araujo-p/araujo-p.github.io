@@ -45,7 +45,7 @@
 
 /*------------------------- UBERLANDIA PAGE-----------------------*/
     div.gallery {
-        display: grip;
+        display: grid;
         grid-template-columns: 300px 300px;
     }
     

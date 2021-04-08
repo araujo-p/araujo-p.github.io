@@ -263,7 +263,7 @@ div.business section h2, div.business section p {
 
 /*------------------------- UBERLANDIA PAGE-----------------------*/
 div.galerry {
-  display: grip;
+  display: grid;
   grid-template-columns: 1fr;
 }
  
