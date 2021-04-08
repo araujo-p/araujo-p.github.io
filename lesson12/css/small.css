@@ -227,6 +227,19 @@ article.call-to-action p {
   font-size: 1.2em;
 }
 
+article.call-to-action a {
+  padding: 5px 10px;
+  background-color: #426a5a;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+article.call-to-action a:hover {
+  background-color: #7fb685;
+}
+
 /*-------------------------- contact info ------------------*/
 section.info-box {
   background-color: lightgray;
@@ -246,6 +259,16 @@ div.business section {
 
 div.business section h2, div.business section p {
   text-align: center;
+}
+
+/*------------------------- UBERLANDIA PAGE-----------------------*/
+div.galerry {
+  display: grip;
+  grid-template-columns: 1fr;
+}
+ 
+div.img-box  img{
+  width: 300px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

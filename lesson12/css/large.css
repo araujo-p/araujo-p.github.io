@@ -39,4 +39,9 @@
         width: 80px;
         padding-right: 30px;
     }
+
+    div.gallery {
+        display: grip;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

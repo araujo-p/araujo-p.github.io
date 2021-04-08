@@ -42,4 +42,14 @@
         max-width: 300px;
     }
 
+
+/*------------------------- UBERLANDIA PAGE-----------------------*/
+    div.gallery {
+        display: grip;
+        grid-template-columns: 300px 300px;
+    }
+    
+    div.img-box  img{
+        width: 300px;
+    }    
 }

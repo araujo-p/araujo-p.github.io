@@ -5,7 +5,7 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     //This is the Weather Summary
-
+    alert(jsObject.alerts[0].sender_name + ' ' + jsObject.alerts[0].event + ' ' + jsObject.alerts[0].description)
     document.getElementById('temperature').textContent = jsObject.current.temp;
     document.getElementById('description').textContent = jsObject.current.weather[0].description;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
@@ -16,7 +16,7 @@ fetch(apiURL)
 
     //loop through it
     for (let i = 0; i < 8; i++ ) {
-        if(i == n) {
+        if (i == n){
         day++
         n++
         document.getElementById(`day${day}`).textContent = dayofWeek[n];
