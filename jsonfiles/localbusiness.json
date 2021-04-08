@@ -11,32 +11,32 @@
     {
       "name": "Naked Uberlandia - Estetica e Depilacao a Laser",
       "address": "992 Santos Dumont Street - Lidice Neighborhood",
-      "phone": ["+55 (34) 3210-8110", "+55 (34) 99777-8110"],
-      "socialmedia": ["@nakedlaser (Instagram)", "Naked Uberlandia (Facebook)"],
+      "phone": "+55 (34) 3210-8110 and +55 (34) 99777-8110",
+      "socialmedia": "@nakedlaser (Instagram) and Naked Uberlandia (Facebook)",
       "email": "nakeduberlandia@gmail.com",
-      "businessour": ["Mon-Friday: 7a.m - 7p.m (7h - 19h)", "Sat: 8a.m - 2p.m (8h - 14h)"]
+      "businessour": "Mon-Fri: 7a.m - 7p.m (7h - 19h) and Sat: 8a.m - 2p.m (8h - 14h)"
     },
     {
       "name": "Neolaser - Health and Aesthetics",
       "address": "712 Cesario Alvim Street - Centro Neighborhood",
-      "phone": ["+55 (34) 3224-2007", "+55 (34) 99233-0854"],
+      "phone": "+55 (34) 3224-2007 and +55 (34) 99233-0854",
       "socialmedia": "@neolaserestetica (Instagram)",
       "email": "neolaserestetica@gmail.com",
-      "businessour": ["Mon-Friday: 8a.m - 6p.m (8h - 18h)", "Sat: 8a.m - 12p.m (8h - 12h)"]
+      "businessour": "Mon-Fri: 8a.m - 6p.m (8h - 18h) and Sat: 8a.m - 12p.m (8h - 12h)"
     },
     {
       "name": "Avimor Tecidos",
       "address": "1428 Raulino Cotta Pacheco Avenue - Martins Neighborhood",
-      "phone": ["+55 (34) 3211-3376", "+55 (34) 3219-5157"],
+      "phone": "+55 (34) 3211-3376 and +55 (34) 3219-5157",
       "socialmedia": "@avimortecidos (Instagram)",
       "email": "contato@avimortecidos.com.br",
-      "businessour": ["Mon-Friday: 9a.m - 6p.m (9h - 18h)", "Sat: 9a.m - 12p.m (9h - 12h)"]
+      "businessour": "Mon-Fri: 9a.m - 6p.m (9h - 18h) and Sat: 9a.m - 12p.m (9h - 12h)"
     },
     {
       "name": "Bali Burguer",
       "address": "625 Afranio Rodrigues da Cunha Avenue - Tabajaras Neighborhood",
       "phone": "+55 (34) 3224-5859",
-      "socialmedia": ["@baliburguer (Instagram)", "Bali Burger Hamburgueria (Facebook)"],
+      "socialmedia": "@baliburguer (Instagram) and Bali Burger Hamburgueria (Facebook)",
       "email": "pedidosbaliburguer@gmail.com",
       "businessour": "Mon-Sat: 3p.m - 9p.m (15h - 21h)"
     },
@@ -44,17 +44,17 @@
       "name": "Hamburgueria do Barao",
       "address": "849 Tabajaras Street - Saraiva Neighborhood",
       "phone": "+55 (34) 3215-4420",
-      "socialmedia": ["@hamburgueriadobarao (Instagram)", "Hamburgueria do Barao (Facebook)"],
+      "socialmedia": "@hamburgueriadobarao (Instagram) and Hamburgueria do Barao (Facebook)",
       "email": "bacon@hamburgueriadobarao.com.br",
       "businessour": "Tue-Sun: 6p.m - 10p.m (18h - 22h)"
     },
     {
       "name": "Darlene Artesanatos",
       "address": "1180 Afonso Pena Avenue - Centro Neighborhood",
-      "phone": ["+55 (34) 3215-4420", "+55 (34) 98435-5252"],
-      "socialmedia": ["@darleneartesanato (Instagram)", "Artesanato e Decoracao (Facebook)"],
+      "phone": "+55 (34) 3215-4420 and +55 (34) 98435-5252",
+      "socialmedia": "@darleneartesanato (Instagram) and Artesanato e Decoracao (Facebook)",
       "email": "atendimento@darlene.com.br",
-      "businessour": "Mon-Frd: 8:30a.m - 17:30p.m (08h30 - 17h30)"
+      "businessour": "Mon-Fri: 8:30a.m - 17:30p.m (08h30 - 17h30)"
     } 
   ]
 }
