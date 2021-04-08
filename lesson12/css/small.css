@@ -237,6 +237,17 @@ div.social-media img.facebook, img.instagram, img.twitter {
   width: 50px;
 }
 
+/*-------------------------- business card ------------------*/
+div.business section {
+  width: 300px;
+  box-shadow: 5px 5px 5px lightgray;
+  padding: 1%;
+}
+
+div.business section h2, div.business section p {
+  text-align: center;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

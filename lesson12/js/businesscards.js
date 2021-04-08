@@ -7,6 +7,7 @@ fetch(requestURL)
     console.table(jsonObject); //temporary checking for valid response and data parsing
     const businesses = jsonObject['businesses'];
     for (let i = 0; i < 4; i++ ) {
+        let businesscard = document.createElement('section');
         let h2 = document.createElement('h2');
         let p = document.createElement('p');
         let p2 = document.createElement('p');
@@ -15,32 +16,40 @@ fetch(requestURL)
         let p5 = document.createElement('p');
     
         h2.textContent = businesses[i].name;
+
+        businesscard.appendChild(h2);
     
-        document.querySelector('div.business').appendChild(h2);
+        document.querySelector('div.business').appendChild(businesscard);
 
         p.textContent = businesses[i].address;
 
-        document.querySelector('div.business').appendChild(p);
+        businesscard.appendChild(p);
+
+        document.querySelector('div.business').appendChild(businesscard);
 
         p2.textContent = businesses[i].phone;
 
-        document.querySelector('div.business').appendChild(p2);
+        businesscard.appendChild(p2);
+
+        document.querySelector('div.business').appendChild(businesscard);
 
         p3.textContent = businesses[i].socialmedia;
 
-        document.querySelector('div.business').appendChild(p3);
+        businesscard.appendChild(p3);
 
-        p3.textContent = businesses[i].socialmedia;
-
-        document.querySelector('div.business').appendChild(p3);
+        document.querySelector('div.business').appendChild(businesscard);
 
         p4.textContent = businesses[i].email;
 
-        document.querySelector('div.business').appendChild(p4);
+        businesscard.appendChild(p4);
+
+        document.querySelector('div.business').appendChild(businesscard);
 
         p5.textContent = businesses[i].businessour;
 
-        document.querySelector('div.business').appendChild(p5);
+        businesscard.appendChild(p5);
+
+        document.querySelector('div.business').appendChild(businesscard);
 
 
     }
